@@ -64,7 +64,7 @@ void loop() {
 
         
 
-        case '0':
+        case '0'://for turning off fan and led on arduino
 
               Serial.println("  off");
 
@@ -76,7 +76,7 @@ void loop() {
 
   
 
-        case '1':
+        case '1'://for turning on fan and led on arduino
 
               Serial.println("  on");
 
@@ -86,7 +86,7 @@ void loop() {
               
 
               break;
-          case '2':
+          case '2'://for turning off led and led on arduino
 
               Serial.println("  off");
 
@@ -97,17 +97,17 @@ void loop() {
 
               break;
 
-            case '3':
+            case '3'://for turning on led and led on arduino
 
               Serial.println("  on");
 
               digitalWrite(LED_PIN,HIGH);
-              digitalWrite(led1,HIGH );//LED 1 IS LCD
+              digitalWrite(led1,HIGH );//LED 1 IS LED
               
               
 
               break;
-             case '4':
+             case '4'://for continuously turning on led for 2 seconds and then turning off led for 3 seconds
              while(true){
 
               Serial.println("  on");
@@ -121,7 +121,7 @@ void loop() {
 
               break;
 
-               case '5':
+               case '5'://for turning off all-led on arduino,led,fan
 
               Serial.println("all off");
 
@@ -130,7 +130,7 @@ void loop() {
               digitalWrite(led2,LOW );//LED 1 IS LCD
               break;
 
-                 case '6':
+                 case '6'://for turning on all-led on arduino,led and fan
 
               Serial.println("all on");
 
