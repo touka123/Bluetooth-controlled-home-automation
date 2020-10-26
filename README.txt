@@ -2,20 +2,20 @@ This is an iot based bluetooth controlled home project.
 
 The components used for this project are:
 
-•	Arduino Uno
-•	Relays(2)
-•	Resistors(3)
-•	Jumper Cables
-•	9 volt battery
-•	12 volt ac adapter
-•	Bt05 bluetooth sensor
-•	Transistors(2) 
-•	Diode(2)
-•	PCB Board
-•	Solder wire
-•	BT05 Bluetooth Module
+â€¢	Arduino Uno
+â€¢	Relays(2)
+â€¢	Resistors(3)
+â€¢	Jumper Cables
+â€¢	9 volt battery
+â€¢	12 volt ac adapter
+â€¢	Bt05 bluetooth sensor
+â€¢	Transistors(2) 
+â€¢	Diode(2)
+â€¢	PCB Board
+â€¢	Solder wire
+â€¢	BT05 Bluetooth Module
 
-Step by step implementation of the project can be found in the youtube link 
+
 
 Since the bluetooth module(bt05) is a low energy bluetooth device a separate android app(link-https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner&hl=en_IN)
 was used to communicate with the bt05 module. After connecting we need to go into custom service section and click on the w button to send write requests. In my case we can send the following inputs to the 
